@@ -1,0 +1,40 @@
+------------------------------------------------------------------------------------------------------------------------------------	
+	Section 4: Static Members and their execution control flow
+
+	Lecture 27 - Static and Non Static Contexts
+------------------------------------------------------------------------------------------------------------------------------------
+
+	Static Context or Class Level Context -> This is for entire class
+
+ 	It doesn't matter how many objects of that class you create, they will all share the same context. 
+  	Whether it is blocks, properties or methods, all the objects will share them.
+ 
+	We don't even need to create an object to access a static context.
+
+	You will just use the class name to access the static methods and static properties.
+ 
+------------------------------------------------------------------------------------------------------------------------------------
+ 	
+ 	Non Static Context is per Object and we need to create an object to access the non-static context.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+	Let's wrap it up with an example -
+
+	Banking Example
+	
+	accountBalance				interest
+	
+	withdraw()				calculateInterest()
+	
+	checkBalance()
+
+	If we take an banking application for a bank account, then accountBalance, withdrawal() & checkBalance() are per object.
+
+	Each bank account or each object will have their own account balance, withdrawal methods and check balance.
+
+	Whereas interest, if you are taking a loan from a bank then the loan interest rates, calculating interest are common across bank accounts and across customers.
+
+	So these can be static whereas account balance, withdraw, check balance should be non-static which are per object.
+
+------------------------------------------------------------------------------------------------------------------------------------
