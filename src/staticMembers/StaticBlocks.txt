@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------------------------------------------------------------	
+	Section 4: Static Members and their execution control flow
+
+	Lecture 28 - Static Blocks
+--------------------------------------------------------------------------------------------------------------------------------------	
+	
+	In the static block whatever code we put will be executed by the JVM.
+	
+	When the class is loaded this will be executed only once.
+	
+	And this class is loaded even before the main method is called.
+	
+	So if you want to do any initialization or any connections to any other systems or anything that we want, to be executed before the actual main method gets executed it should go inside the static block.
+	
+	So if we have multiple static blocks the order of the static blocks is important because the JVM uses the order to run them.
+
+--------------------------------------------------------------------------------------------------------------------------------------
