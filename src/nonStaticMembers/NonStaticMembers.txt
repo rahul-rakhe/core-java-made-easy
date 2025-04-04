@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------------------------------------------------------------	
+	Section 4: Non-Static Members and their execution control flow
+
+	Lecture 31 - Non Static Members
+--------------------------------------------------------------------------------------------------------------------------------------	
+	
+	Any functionality that is specific to a particular object of a class should be defined as non-static member in the class.
+	
+	There can be four non-static members -
+	
+	1. Non Static Variable
+	2. Non Static Block
+	3. Non Static User Method
+	4. Constructor
+	
+	These are similar to the static counter parts like static variable, static block, static user method except for the constructor 
+	which takes the place of the main method. 
+	
+	The main method is always a static method instead we have a constructor here in this case.
+	
+	To access these four, we need to create an object of a class because these are very specific to a particular object. 
+	
+	And we can create this object inside any of the static members like main method, a static block or a user defined method.
+
+	So we define an object and then we access them.
+	
+--------------------------------------------------------------------------------------------------------------------------------------
